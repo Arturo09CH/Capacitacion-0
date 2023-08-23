@@ -1,0 +1,35 @@
+
+body {
+    background: linear-gradient(45deg, #d78e8e, #325532, #6e6ed5);
+    background-size: 600% 600%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+h1 {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+    transform: translate(-50%, 50%);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    animation: slideAnimation 4s linear infinite alternate;
+}
+@keyframes slideAnimation {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(0); }
+}
+
+
+
+
+
